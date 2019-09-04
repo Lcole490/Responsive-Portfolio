@@ -1,0 +1,155 @@
+html{
+  background: url(../images/background2.png); 
+}
+
+
+.nameplace h1{ 
+    font-family: 'Georgia';
+    font-size: 40px;
+    background-color:#4aaaa5;
+    line-height: 100px;
+    color: #ffffff;
+
+    
+}
+
+.container{
+    width: 960px;
+    height: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+
+.header{
+    width: 960px;
+    height: 100px;
+    border: solid #cccccc 2px;
+    margin: 0 auto;
+    background-color: #ffffff; 
+
+}
+
+.nameplace{
+    height: 100px;
+    margin: -27px auto;
+    /* background-color: #4aaaa5; */
+    width: 300px;
+    float: left;
+    text-align: center;
+}
+
+nav{
+   background: '#ffffff';
+   height: 100px;
+   width: 500px;
+   float: right;
+
+}
+
+nav ul{
+    border: 1px solid '#ffffff';
+    line-height: 100px;
+    width: 400px;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+
+nav ul li{
+    list-style-type: none;
+    width: 125px;
+    float: right;
+    line-height: 100px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #777777;
+    display: block;
+    line-height: 100px;
+   
+}
+
+nav ul li a:hover{
+    background-color: #4aaaa5;
+    color: #ffffff;
+}
+
+.mainsection{
+    width: 960px;
+    /* height: 1200px; */
+    min-height: calc(100vh - 10px);
+    /* min-height: 100%; */
+    background-color: #ffffff;
+    border: solid #dddddd 2px;
+    margin top: 40px;
+    /* margin: 40px auto; */
+    margin-bottom: -4em;
+
+}
+
+.aboutme{
+
+    width: 960px;
+    height: 100px;
+    /* margin: 25px; */
+    border: solid #dddddd 0px;
+    border-bottom: solid #cccccc 2px;
+    background-color: #ffffff;
+
+}
+
+h3{
+    color: #4aaaa5;
+    font-family: serif;
+    margin: 45px;
+    font-weight: bolder;
+    background-color: #ffffff;
+    font-size: 40px;
+    padding-bottom: 30px;
+    border-bottom: 5px solid #dddddd;
+    line-height: 49px;
+}
+
+.picplace{
+    height: 400px;
+    width: 300px;
+    border: solid #ffffff 2px;
+    float: left;
+    margin-right: 20px;
+}
+
+p{
+    font-family: sans-serif #777777;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    background-color: #ffffff;
+    
+}
+
+.footer{
+    height: 100px;
+    width: 960px;
+    margin-top: -50px;
+    border: solid #dddddd 2px;
+    border-top: 8px solid #4aaaa5;
+    background-color: #666666;
+}
+
+.maincontact{
+    float: left;
+    margin-left: 100px;
+}
+
+.mainportfolio{
+    margin-left: 30px;
+
+}
+
+.col{
+    width: 18rem;
+}
